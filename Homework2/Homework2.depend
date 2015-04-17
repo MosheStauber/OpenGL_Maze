@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1424737118 source:c:\users\moshe\documents\codeblocks\homework2\initshader.cpp
+	"Angel.h"
+
+1429246942 source:c:\users\moshe\documents\codeblocks\homework2\main.cpp
+	"Maze.h"
+	"Camera.h"
+	<windows.h>
+
+1426794040 c:\users\moshe\documents\codeblocks\homework2\include\wall.h
+	"Angel.h"
+	<vector>
+
+1426823444 source:c:\users\moshe\documents\codeblocks\homework2\src\wall.cpp
+	"Wall.h"
+
+1427487571 c:\users\moshe\documents\codeblocks\homework2\wall.h
+	"Angel.h"
+	<vector>
+
+1429244612 source:c:\users\moshe\documents\codeblocks\homework2\wall.cpp
+	"Wall.h"
+
+1429246942 source:c:\users\moshe\documents\codeblocks\homework2\cube.cpp
+	"Cube.h"
+
+1429244612 c:\users\moshe\documents\codeblocks\homework2\cube.h
+	"Wall.h"
+
+1427474108 source:c:\users\moshe\documents\codeblocks\homework2\src\camera.cpp
+	"Camera.h"
+
+1427167115 c:\users\moshe\documents\codeblocks\homework2\include\camera.h
+	"Angel.h"
+
+1429243525 c:\users\moshe\documents\codeblocks\homework2\camera.h
+	"Angel.h"
+	<vector>
+
+1429245777 source:c:\users\moshe\documents\codeblocks\homework2\camera.cpp
+	"Camera.h"
+
+1429246942 source:c:\users\moshe\documents\codeblocks\homework2\maze.cpp
+	"Maze.h"
+
+1429246405 c:\users\moshe\documents\codeblocks\homework2\maze.h
+	"Cube.h"
+	<time.h>
+

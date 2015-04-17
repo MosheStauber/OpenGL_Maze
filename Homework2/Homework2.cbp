@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Homework2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Homework2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DFREEGLUT_STATIC" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-static-libstdc++" />
+					<Add library="C:\MinGW\lib\libfreeglut.a" />
+					<Add library="C:\MinGW\lib\libgdi32.a" />
+					<Add library="C:\MinGW\lib\libglew32.a" />
+					<Add library="C:\MinGW\lib\libopengl32.a" />
+					<Add library="C:\MinGW\lib\libwinmm.a" />
+					<Add library="C:\MinGW\bin\libgcc_s_dw2-1.dll" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Homework2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Camera.cpp" />
+		<Unit filename="Camera.h" />
+		<Unit filename="Cube.cpp" />
+		<Unit filename="Cube.h" />
+		<Unit filename="InitShader.cpp" />
+		<Unit filename="Maze.cpp" />
+		<Unit filename="Maze.h" />
+		<Unit filename="Wall.cpp" />
+		<Unit filename="Wall.h" />
+		<Unit filename="fshader.glsl" />
+		<Unit filename="main.cpp" />
+		<Unit filename="vshader.glsl" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
